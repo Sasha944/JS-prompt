@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo JS</title>
+</head>
+<body>
+<ol type="I">
+	<li>My name is: <span id="name"></span>;</li>
+	<li>I'm <span id="age"></span>years old</li>
+	<li>My second name is: <span id="secondName"></span>;</li>
+	<li>I'm from <span id="yourPlace"></span>;</li>
+	<li>My number is: <span id="number"></span>.</li>
+</ol>
+<script>
+	var firstName = document.getElementById("name");
+	firstName.innerText = prompt("What is your name?");
+	var age = document.getElementById("age");
+	age.innerText = prompt("How old are you?");
+	var secondName = document.getElementById("secondName");
+	secondName.innerText = prompt("What is your Second Name?");
+	var yourPlace = document.getElementById("yourPlace");
+	yourPlace.innerText = prompt ("Where are you from?");
+	var number = document.getElementById("number");
+	number.innerText = prompt("What is your phone number?");
+</script>
+</body>
+</html>
